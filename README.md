@@ -25,3 +25,9 @@ const { outputNode, depthTexture, normalTexture } = useMemo(() => {
   };
 }, [scene, camera]);
 ```
+
+You can run Storybook in this command.
+
+```
+pnpm storybook
+```
